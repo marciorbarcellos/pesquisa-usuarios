@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de usuários</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <div id="container" class="row">
+    <h1 class="col s12"><span>Pesquisa de usuários</span></h1>
+    <div id="e-search" class="row">
+      <form id="form-search">
+        <div class="col s8" id="reg-field"><input type="text" name="nome" id="f-name"
+            placeholder="Busca" /></div>
+        <button type="submit" class="waves-effect waves-light btn col s3" href="">BUSCAR</button>
+      </form>
+    </div>
+    <div id="results" class="row">
+      <div id="users" class="col s6">
+        <h5>Nenhum usuário filtrado.</h5>
+      </div>
+      <div id="statistics" class="col s6">
+        <h5>Nada a ser exibido.</h5>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
