@@ -6,6 +6,6 @@ Repositório com exercícios do Bootcamp Full Stack IGTI para criação de uma a
 
 ![Pesquisa-usuários](https://i.imgur.com/vnSBDNM.jpg "Pesquisa-usuários")
 
-(https://github.com/marciorbarcellos/pesquisa-usuarios)
+
 
 
